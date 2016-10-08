@@ -1,0 +1,113 @@
+.but_bg_left {
+    background: url('../images/but_bg.png') repeat top right;
+}
+
+.but_bg_right {
+    background: url('../images/but_bg.png') repeat top left;
+}
+
+.module {
+    text-align: center;
+    transform: rotate(-2deg);
+}
+
+.is-centred {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.dash {
+    display: block;
+    height: 1.625em;
+    line-height: 1.4;
+}
+
+.polaroid {
+    background-color: rgb(250, 250, 250);
+    letter-spacing: 0.125em;
+    margin: 1.25% 1%;
+    padding: 1em;
+    text-align: center;
+    max-width: 80%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.polaroid__link {
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.polaroid__link:hover .polaroid__content, .polaroid__link:focus .polaroid__content {
+    opacity: 0;
+}
+
+.polaroid__media {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.polaroid__header {
+    background-color: white;
+    margin: 0;
+    /*padding: 1em 0 0.5em 0;*/
+}
+
+.polaroid__header p {
+    /*line-height: 1.5;*/
+    margin: 0;
+}
+
+.polaroid__heading {
+    color: #06c;
+    margin: 0;
+    padding-top: 0.5em;
+}
+
+/*.module:nth-of-type(n+1) {
+  transform: rotate(-2deg);
+}*/
+
+.module:nth-of-type(odd) {
+  transform: rotate(3deg);
+}
+
+/*.module:nth-of-type(n+3) {
+  transform: rotate(-2deg);
+}*/
+
+/*.module:nth-of-type(n+4) {
+  transform: rotate(3deg);
+}*/
+
+.poloraid-shadow {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+@media screen and (min-width: 30em) {
+  .polaroid-ns {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .polaroid-m {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .polaroid-m {
+    max-width: 80%;
+  }
+}
