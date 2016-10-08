@@ -1,9 +1,9 @@
 .but_bg_left {
-    background: url('../images/but_bg.png') repeat top right;
+    background: url(../images/but_bg.png) top right repeat;
 }
 
 .but_bg_right {
-    background: url('../images/but_bg.png') repeat top left;
+    background: url(../images/but_bg.png) top left repeat;
 }
 
 .module {
@@ -60,11 +60,9 @@
 .polaroid__header {
     background-color: white;
     margin: 0;
-    /*padding: 1em 0 0.5em 0;*/
 }
 
 .polaroid__header p {
-    /*line-height: 1.5;*/
     margin: 0;
 }
 
@@ -74,21 +72,9 @@
     padding-top: 0.5em;
 }
 
-/*.module:nth-of-type(n+1) {
-  transform: rotate(-2deg);
-}*/
-
 .module:nth-of-type(odd) {
   transform: rotate(3deg);
 }
-
-/*.module:nth-of-type(n+3) {
-  transform: rotate(-2deg);
-}*/
-
-/*.module:nth-of-type(n+4) {
-  transform: rotate(3deg);
-}*/
 
 .poloraid-shadow {
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
